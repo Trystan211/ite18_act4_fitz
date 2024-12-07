@@ -97,7 +97,7 @@ scene.add(lake);
 // === Model ===
 let centralModel = null;
 new GLTFLoader().load(
-    'https://trystan211.github.io/ite18_act4_fitz/triops.glb',
+    'https://trystan211.github.io/ite18_act4_fitz/blue_trivalve.glb',
     (gltf) => {
         centralModel = gltf.scene;
         centralModel.position.set(0, 1, 0);
