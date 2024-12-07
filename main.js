@@ -97,7 +97,7 @@ scene.add(lake);
 // === Model ===
 let centralModel = null;
 new GLTFLoader().load(
-    'https://trystan211.github.io/ite18_fitz_act4/metroid_primecreaturesmagmoor.glb',
+    'https://trystan211.github.io/ite18_fitz_act4/blue_trivalve.glb',
     (gltf) => {
         centralModel = gltf.scene;
         centralModel.position.set(0, 1, 0);
