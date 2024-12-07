@@ -101,7 +101,7 @@ new GLTFLoader().load(
     (gltf) => {
         centralModel = gltf.scene;
         centralModel.position.set(0, 1, 0);
-        centralModel.scale.set(20, 20, 20);
+        centralModel.scale.set(80, 80, 80);
         scene.add(centralModel);
         console.log("Model Loaded:", gltf.scene);
     },
